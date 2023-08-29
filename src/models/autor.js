@@ -10,7 +10,7 @@ class Autor {
     created_at,
     updated_at
   }) {
-    this.id = null || id;
+    this.id = id;
     this.nome = nome;
     this.nacionalidade = nacionalidade;
     this.created_at = created_at || new Date().toISOString();

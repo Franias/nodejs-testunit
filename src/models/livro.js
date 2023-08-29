@@ -12,7 +12,7 @@ class Livro {
     created_at,
     updated_at
   }) {
-    this.id = null || id;
+    this.id = id;
     this.titulo = titulo;
     this.paginas = paginas;
     this.editora_id = editora_id;

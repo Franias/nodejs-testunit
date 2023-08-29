@@ -11,7 +11,7 @@ class Editora {
     created_at,
     updated_at,
   }) {
-    this.id = null || id;
+    this.id = id;
     this.nome = nome;
     this.cidade = cidade;
     this.email = email;
